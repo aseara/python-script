@@ -30,6 +30,7 @@ def modify_sqlmap(new_path, old_path, sqlmap):
     f.write(old_xml)
     f.close()
 
+
 if __name__ == "__main__":
     new_p = 'D:/temp/mybatis/'
     old_p = 'E:/prjs/hdf/hbm/be/src/main/resources/mybatis/sys/'
